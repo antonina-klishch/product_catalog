@@ -1,9 +1,3 @@
-# React TypeScript Starter Pack
+#  [Product_Catalog](https://antonina-klishch.github.io/product_catalog/)
 
-To use this template click `Use this template`
 
-### Available Scripts
-
-`Deploy` - available to deploy your application to gh-pages
-
-`SCSS Preprocessor` - available to write your styles with modern style language
