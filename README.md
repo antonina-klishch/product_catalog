@@ -29,4 +29,4 @@ The Product Catalog project is a dynamic web application built with React and Re
 * **SCSS** with **BEM** methodology for styling
 
 ## Conclusion:
-The **Product Catalog** project showcases my proficiency in front-end development with React and TypeScript, highlighting my ability to create attractive and interactive web applications. This project shows my commitment to provide high-quality solutions that meet the needs and expectations of users.
+The **[Product Catalog](https://antonina-klishch.github.io/product_catalog/)** project showcases my proficiency in front-end development with React and TypeScript, highlighting my ability to create attractive and interactive web applications. This project shows my commitment to provide high-quality solutions that meet the needs and expectations of users.
