@@ -1,27 +1,33 @@
-#  [Product_Catalog](https://antonina-klishch.github.io/product_catalog/)
+# Product Catalog
+**[Product Catalog](https://antonina-klishch.github.io/product_catalog/)**
+## Overview:
+The Product Catalog project is a dynamic web application built with React and React Router. This website provides users with a convenient browsing experience for various models of phones, tablets and accessories. This project implements a number of functions for efficient navigation, filtering and product management.
 
+## Key Features:
 
-Phone Catalog
-Project Description
-The main goal was to build a website according to the design mockup from Figma Design link and implement the website's functionality using React and Typescript, allowing the user to interact with the interface. Site navigation is performed using React Router DOM. Various phone models were obtained by fetching data from an API. Filters and product search were also added for user convenience. All items that were added by the user to favorites list or shopping cart are stored in local storage.
+**Responsive Design:** The application is designed to adapt to various screen sizes, ensuring an optimal viewing experience across devices:
+  * **Mobile** (900px wide or less)
+  * **Tablet** ( from 900px to 1200px)
+  * **Desktop** (more than 1200px wide)
 
-Technologies Used
-This project utilizes the following technologies and libraries:
+**Dynamic Content:** Products are fetched from an API and dynamically rendered on the site, allowing users to explore a diverse range of offerings.
 
-React
-React Router(v6)
-TypeScript
-JavaScript
-Fetch, REST API
-Custom hooks
-ClassNames
-lodash.debounce
-Sass (SCSS) with BEM (Block, Element, Modifier) methodology
-Preview Link
-DEMO LINK
+**User Interaction:** With features such as filtering, sorting, and pagination, users can easily navigate through the catalog and find products that match their preferences.
 
-Installation and Usage
-Clone the repository
-Install dependencies: npm install
-Run the development server: npm start
-Open http://localhost:3000 in a web browser.
+**Local Storage Integration:** Items added to the favorites list or shopping cart are stored locally, providing a seamless browsing experience across sessions.
+
+**Routing with React Router:** Site navigation is processed efficiently using React Router, enabling smooth transitions between different pages and sections.
+
+## Technologies Used:
+* **React**
+* **React Router (v6)**
+* **TypeScript**
+* **JavaScript**
+* **Fetch API**  for data retrieval
+* **Custom hooks** 
+* **SCSS** with **BEM** methodology for styling
+* 
+Preview Link: DEMO LINK
+
+# Conclusion:
+The **Product Catalog** project showcases my proficiency in front-end development with React and TypeScript, highlighting my ability to create attractive and interactive web applications. This project shows my commitment to provide high-quality solutions that meet the needs and expectations of users.
