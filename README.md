@@ -2,7 +2,7 @@
 I am glad to present my project **[Product Catalog](https://antonina-klishch.github.io/product_catalog/)**
 
 ## Overview:
-The Product Catalog project is a dynamic web application built with React and React Router. This website provides users with a convenient browsing experience for various models of phones, tablets and accessories. This project implements a number of functions for efficient navigation, filtering and product management.
+The Product Catalog project is a dynamic web application built with React and React Router. This website provides users with a convenient browsing experience for various models of phones, tablets and accessories. This project implements a range of features for efficient navigation, filtering and product management.
 
 ## Key Features:
 
