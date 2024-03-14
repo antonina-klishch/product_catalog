@@ -234,39 +234,39 @@ export const ProductDetailsPage = () => {
                   </div>
 
                   <div className="product-details__info-container">
-                    {currentItem.priceRegular - currentItem.priceDiscount >
-                    0 ? (
-                      <div className="product-details__prices">
-                        <div
-                          className="
-                              product-details__price
-                              product-details__price--sale
-                             "
-                        >
-                          {`$${currentItem.priceDiscount}`}
+                    { currentItem.priceRegular - currentItem.priceDiscount > 0
+                      ? (
+                        <div className="product-details__prices">
+                          <div
+                            className="
+                                  product-details__price
+                                  product-details__price--sale
+                                "
+                          >
+                            {`$${currentItem.priceDiscount}`}
+                          </div>
+                          <div
+                            className="
+                                  product-details__price
+                                  product-details__price--full
+                                "
+                          >
+                            {`$${currentItem.priceRegular}`}
+                          </div>
                         </div>
-                        <div
-                          className="
-                              product-details__price
-                              product-details__price--full
-                            "
-                        >
-                          {`$${currentItem.priceRegular}`}
+                      ) : (
+                        <div className="product-details__prices">
+                          <div
+                            className="
+                                    product-details__price
+                                    product-details__price--sale
+                                  "
+                          >
+                            {`$${currentItem.priceRegular}`}
+                          </div>
                         </div>
-                      </div>
-                    ) : (
-                      <div className="product-details__prices">
-                        <div
-                          className="
-                              product-details__price
-                              product-details__price--sale
-                            "
-                        >
-                          {`$${currentItem.priceRegular}`}
-                        </div>
-                      </div>
-                    )}
-
+                      )
+                    }
                     <div className="product-details__buttons">
                       <button
                         type="button"
