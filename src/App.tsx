@@ -1,21 +1,30 @@
-import React from 'react';
+import { Navigate, Outlet, useLocation } from 'react-router-dom';
 import './App.scss';
+import { useEffect } from 'react';
+import { Footer } from './components/Footer';
+import { Header } from './components/Header';
+import { CartProvider } from './components/CartContext/CartContext';
+import { NotificationWindow } from './components/NotificationWindow';
 
-interface Props {
-  onClick: () => void;
-  children: React.ReactNode;
-}
+export const App = () => {
+  const { pathname, search } = useLocation();
 
-export const Provider: React.FC<Props> = React.memo(({ onClick, children }) => (
-  <button type="button" onClick={onClick}>
-    {children}
-  </button>
-));
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname, search]);
 
-export const App: React.FC = () => {
+  if (pathname === '/home') {
+    return <Navigate to="/" replace />;
+  }
+
   return (
-    <div className="starter">
-      <Provider onClick={() => ({})}>TodoList</Provider>
+    <div className="App">
+      <CartProvider>
+        <Header />
+        <Outlet />
+        <NotificationWindow />
+        <Footer />
+      </CartProvider>
     </div>
   );
 };
